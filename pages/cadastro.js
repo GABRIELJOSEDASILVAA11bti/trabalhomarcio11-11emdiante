@@ -20,7 +20,7 @@ const user = {
 
        }
 
-     const response = await fetch("http://localhost:3333/cadastrar", {
+     const response = await fetch("https://backend02mb-bice.vercel.app/cadastrar", {
     method: "POST",
     headers: {
         "Content-Type": "application/json"
